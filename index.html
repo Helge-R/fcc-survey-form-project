@@ -10,45 +10,41 @@
         <p id="description">To help us improve our platform, please take part in this little survey. </p>
         <form id="survey-form" method="post">
             <fieldset>
-                <label id="name-label" for="name">Name</label>
-                <input id="name" name="name" type="text" placeholder="Enter your name" required>
-                <label id="email-label" for="email">Email</label>
-                <input id="email" name="email" type="email" placeholder="Enter your email" required>
-                <label id="number-label" for="age">Age(optional)</label>
-                <input id="number" name="number" type="number" min="14" max="130" placeholder="Age">
+                <label id="name-label" for="name">Name<input id="name" name="name" type="text" placeholder="Enter your name" required></label>
+                
+                <label id="email-label" for="email">Email<input id="email" name="email" type="email" placeholder="Enter your email" required></label>
+                
+                <label id="number-label" for="age">Age(optional)<input id="number" name="number" type="number" min="14" max="130" placeholder="Age"></label>
+                
             </fieldset>
             
             <fieldset>
-                <label for="dropdown">What is your favorite feature of freeCodeCamp?</label>
-                <select id="dropdown" name="dropdown">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
+                <label for="dropdown">
+                    What is your favorite feature of freeCodeCamp?
+                    <select id="dropdown" name="dropdown">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </label>
             </fieldset>
             
             <fieldset>
-                <label for="radio-1"></label>
-                <input id="radio-1" type="radio" name="radio" value="a">
-                <label for="radio-2"></label>
-                <input id="radio-2" type="radio" name="radio" value="b">
-                <label for="radio-3"></label>
-                <input id="radio-3" type="radio" name="radio" value="c">
+                <label for="radio-1"><input id="radio-1" type="radio" name="radio" value="a" class="inline"> Definitely</label>
+                
+                <label for="radio-2"><input id="radio-2" type="radio" name="radio" value="b" class="inline"> Maybe</label>
+                
+                <label for="radio-3"><input id="radio-3" type="radio" name="radio" value="c" class="inline"> Not sure</label>
+                
             </fieldset>
             
             <fieldset>
-                <legend>Choose!</legend>
-                <input id="a" type="checkbox" name="a">
-                <input id="b" type="checkbox" name="b">
-                <input id="c" type="checkbox" name="c">
-                <input id="d" type="checkbox" name="d">
-                <input id="e" type="checkbox" name="e">
-                <label for="a">A</label>
-                <label for="b">B</label>
-                <label for="c">C</label>
-                <label for="d">D</label>
-                <label for="e">E</label>
+                <label for="a"><input id="a" type="checkbox" name="a" class="inline"> A</label>
+                <label for="b"><input id="b" type="checkbox" name="b" class="inline"> B</label>
+                <label for="c"><input id="c" type="checkbox" name="c" class="inline"> C</label>
+                <label for="d"><input id="d" type="checkbox" name="d" class="inline"> D</label>
+                <label for="e"><input id="e" type="checkbox" name="e" class="inline"> E</label>
             </fieldset>
             
             <fieldset>
@@ -56,7 +52,7 @@
             </fieldset>
             
 
-            <button id="submit" value="Submit"></button>
+            <button id="submit">Submit</button>
         </form>
     </body>
 
